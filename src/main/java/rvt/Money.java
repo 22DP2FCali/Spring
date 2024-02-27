@@ -1,3 +1,5 @@
+package rvt;
+
 public class Money {
 
     private final int euros;
