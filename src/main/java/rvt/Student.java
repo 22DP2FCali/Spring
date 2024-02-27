@@ -13,4 +13,10 @@ public class Student {
         this.email = email;
         this.group = group;
     }
+    public void GetInfo() {
+        System.out.println("Student name is " + this.name);
+        System.out.println("Student surname is " + this.surname);
+        System.out.println("Student email is " + this.email);
+        System.out.println("Student group is " + this.group);
+    }
 }
